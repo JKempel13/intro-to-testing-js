@@ -6,4 +6,3 @@ function helloWorld() {
 function sayHello (input) {
     return "Hello, " + input + "!";
 }
-
