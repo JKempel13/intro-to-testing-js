@@ -1,4 +1,4 @@
-// helloWorld function 
+// helloWorld function
 function helloWorld() {
     return "Hello, World!";
 }
@@ -13,5 +13,9 @@ function sayHello (input) {
 }
 
 function isFive (input) {
-    return true;
+    if (input == "5") {
+        return true;
+    } else {
+        return false;
+    }
 }
