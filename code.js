@@ -19,3 +19,21 @@ function isFive (input) {
         return false;
     }
 }
+
+function isEven (num) {
+    if (num % 2 === 0) {
+        return true;
+    } else {
+        return false;
+    }
+}
+
+function isVowel (input) {
+    if (input === "a") {
+        return true;
+    } else if (input === "A") {
+        return true;
+    } else {
+        return false;
+    }
+}
